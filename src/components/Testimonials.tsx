@@ -5,33 +5,33 @@ import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 const musicSchoolTestimonials = [
   {
     quote:
-      "Joining the music school transformed my understanding of music and helped me to truly discover my own sound. The instructors are world-class!",
+      "Integrating Liveblocks for real-time collaborative features in Next.js has been smooth. The Three.js whiteboard canvas is rendering beautifully, and the Liveblocks presence APIs are handling concurrent user actions effectively. We've optimized for performance, especially with complex Three.js scenes.",
     name: "Preeti Ranjan",
-    title: "Software Technology Student",
+    title: "Frontend Developer (Next.js/Liveblocks/Three.js)",
   },
   {
     quote:
-      "The community and support at this school are unmatched. I've grown not just as a pianist, but also as a performer, thanks to their comprehensive approach.",
+      "Firebase Authentication and Firestore are providing a robust backend for user management and data storage. We're leveraging AWS S3 for scalable storage of assignment files and Cloud Functions for serverless backend logic. The integration between Firebase and AWS is working seamlessly.",
     name: "Dhiraj Gupta",
-    title: "Software Technology Student",
+    title: "Backend Developer (Firebase/AWS)",
   },
   {
     quote:
-      "This school offered me the tools and confidence to take my singing to the next level. I'm endlessly grateful for the personalized coaching.",
+      "The Liveblocks API has been crucial for managing real-time cursors, selections, and drawing updates. We've implemented optimistic UI updates to minimize perceived latency, and the Liveblocks room state is maintaining consistency across all clients. The integration with our video-meeting components is also very stable.",
     name: "Hemanand Swamy",
-    title: "UI/UX Design Student",
+    title: "Real-time API Specialist (Liveblocks Integration)",
   },
   {
     quote:
-      "As a violinist, finding the right mentor can be challenging, but this school matched me with a teacher who truly understands my goals and challenges.",
+      "We've deployed the application on AWS using a combination of EC2, Lambda, and S3, ensuring high availability and scalability. We've configured auto-scaling groups to handle peak loads and implemented CloudFront for efficient content delivery. Firebase's integration with AWS has allowed for a clean and efficient deployment pipeline.",
     name: "Satyajyoti Mohanty",
-    title: "Cloud Student",
+    title: "Cloud Infrastructure Engineer (AWS Optimization)",
   },
   {
     quote:
-      "The production courses here opened my eyes to the intricacies of music production. Highly recommend for any aspiring producers!",
+      "The combination of Next.js, Firebase, Liveblocks, Three.js, and AWS has proven to be a powerful stack for this project. We've maintained clear communication between the frontend, backend, and infrastructure teams, ensuring a cohesive development process. Testing across these technologies has been thorough, and we're confident in the project's stability and scalability.",
     name: "Rakesh Kumar",
-    title: "Java Student",
+    title: "Project Manager (Tech Stack Coordination)",
   },
 ];
 
