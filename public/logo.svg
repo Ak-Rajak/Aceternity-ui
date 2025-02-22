@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+        <!-- Font imports -->
+        <defs>
+          <style type="text/css">
+            @import url('https://fonts.googleapis.com/css2?family=Audiowide&amp;family=Martian+Mono:wght@400;500&amp;display=swap');
+          </style>
+          
+          <!-- Gradient definitions -->
+          <linearGradient id="syncGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#5442EB;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#5442EB;stop-opacity:1" />
+          </linearGradient>
+        </defs>
+      
+        <!-- Main Logo Group -->
+        <g transform="translate(20, 40)">
+          <!-- Sync Icon -->
+          <g transform="translate(0, 20)">
+            <!-- Connecting nodes -->
+            <circle cx="40" cy="40" r="20" fill="url(#syncGradient)" />
+            <circle cx="80" cy="40" r="20" fill="url(#syncGradient)" opacity="0.85" />
+            
+            <!-- Connection lines -->
+            <path d="M50 25 A25 25 0 0 1 70 55" stroke="white" stroke-width="3" fill="none" />
+            <path d="M70 25 A25 25 0 0 0 50 55" stroke="white" stroke-width="3" fill="none" />
+            
+            <!-- Small dots representing collaboration -->
+            <circle cx="60" cy="20" r="4" fill="white" />
+            <circle cx="60" cy="60" r="4" fill="white" />
+          </g>
+      
+          <!-- Text Elements -->
+          <text x="120" y="65" font-family="Audiowide, cursive" font-size="30" fill="white">
+            Sync-Student
+          </text>
+          <text x="120" y="90" font-family="Martian Mono, monospace" font-size="15" fill="#5442EB">
+            Let's Collab
+          </text>
+        </g>
+      </svg>

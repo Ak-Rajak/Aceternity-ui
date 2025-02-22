@@ -26,7 +26,7 @@ export function MenuItem({
   children?: React.ReactNode;
 }) {
   return (
-    <div onMouseEnter={() => setActive(item)} className="relative ">
+    <div onMouseEnter={() => setActive(item)} className="relative">
       <motion.p
         transition={{ duration: 0.3 }}
         className="cursor-pointer text-black hover:opacity-[0.9] dark:text-white"
@@ -43,13 +43,10 @@ export function MenuItem({
             <div className="absolute left-1/2 top-[calc(100%_+_1.7rem)] -translate-x-1/2">
               <motion.div
                 transition={transition}
-                layoutId="active" // layoutId ensures smooth animation
+                layoutId="active"
                 className="overflow-hidden rounded-2xl border border-black/[0.2] bg-white shadow-xl backdrop-blur-sm dark:border-white/[0.2] dark:bg-black"
               >
-                <motion.div
-                  layout // layout ensures smooth animation
-                  className="h-full w-max p-4"
-                >
+                <motion.div layout className="h-full w-max p-4">
                   {children}
                 </motion.div>
               </motion.div>
@@ -70,9 +67,21 @@ export function Menu({
 }) {
   return (
     <nav
-      onMouseLeave={() => setActive(null)} // resets the state
-      className="shadow-input relative flex justify-center space-x-4 rounded-full border border-transparent bg-white px-8 py-6 dark:border-white/[0.2] dark:bg-black "
+      onMouseLeave={() => setActive(null)}
+      className="shadow-input relative flex items-center h-[50px] justify-center space-x-4 rounded-full border border-transparent bg-white px-8 py-6 dark:border-white/[0.2] dark:bg-black"
     >
+      {/* Logo in the top-left corner */}
+      <Link href="/">
+      <div className="flex-shrink-0">
+        <Image
+          src="/logo.svg" // Make sure the SVG is in the `public` folder
+          width={200}
+          height={200}
+          alt="Sync Logo"
+        />
+      </div>
+      </Link>
+
       {children}
     </nav>
   );
@@ -114,7 +123,7 @@ export function HoveredLink({ children, ...rest }: any) {
   return (
     <Link
       {...rest}
-      className="text-neutral-700 hover:text-black dark:text-neutral-200 "
+      className="text-neutral-700 hover:text-black dark:text-neutral-200"
     >
       {children}
     </Link>
