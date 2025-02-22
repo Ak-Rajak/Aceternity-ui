@@ -63,7 +63,7 @@ export function SparklesCore({
               },
             },
             fullScreen: {
-              enable: false,
+              enable: true,
               zIndex: 1,
             },
 
@@ -75,7 +75,7 @@ export function SparklesCore({
                   mode: "push",
                 },
                 onHover: {
-                  enable: false,
+                  enable: true,
                   mode: "repulse",
                 },
                 resize: true as any,
@@ -85,8 +85,8 @@ export function SparklesCore({
                   quantity: 4,
                 },
                 repulse: {
-                  distance: 200,
-                  duration: 0.4,
+                  distance: 40,
+                  duration: 0.05,
                 },
               },
             },

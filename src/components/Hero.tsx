@@ -24,7 +24,7 @@ export default function Hero() {
         />
         <p className="mx-auto mt-4 max-w-lg text-base font-normal text-neutral-300 md:text-lg">
         Why get bored alone when you can get bored together?
-        Make friends, learn together, and turn boredom into fun!
+        Make friends, learn together, and turn boredom into fun!
         </p>
         <div className="mt-4">
           <Link href="/courses">
