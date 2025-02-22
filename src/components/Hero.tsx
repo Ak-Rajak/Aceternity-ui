@@ -8,7 +8,7 @@ export default function Hero() {
     <section className="md-h-[40rem] relative mx-auto flex h-auto min-h-screen flex-col items-center justify-center overflow-hidden rounded-md py-10 md:py-0">
       <Spotlight
         className="-top-40 left-0 md:-top-20 md:left-60"
-        fill="white"
+        fill="blue"
       />
       <div className="relative z-10 w-full p-8 text-center">
         <h1 className="mt-20 bg-gradient-to-b from-neutral-50 to-neutral-400 bg-clip-text text-4xl font-bold text-transparent md:mt-0 md:text-7xl">
