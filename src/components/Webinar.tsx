@@ -72,14 +72,15 @@ export function Webinar() {
           />
         </div>
 
-        <div className="mt-10 text-center">
+            {/* Button removed  */}
+        {/* <div className="mt-10 text-center">
           <Link
             href="/"
             className="rounded border border-neutral-600 bg-white px-4 py-2 text-neutral-700 transition duration-200 hover:bg-gray-100"
           >
             View All features
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
   );

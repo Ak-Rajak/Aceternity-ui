@@ -43,21 +43,23 @@ export function FeatureCourses() {
                     <p className="grow text-sm text-neutral-600 dark:text-neutral-400">
                       {course.description}
                     </p>
-                    <Link href={`/courses/${course.slug}`}>Learn More</Link>
+                    {/* <Link href={`/courses/${course.slug}`}>Learn More</Link> */}
                   </div>
                 </BackgroundGradient>
               </div>
             ))}
           </div>
         </div>
-        <div className="mt-20 text-center">
+
+        {/* Removed Buttons */}
+        {/* <div className="mt-20 text-center">
           <Link
             href="/courses"
             className="rounded border border-neutral-600 bg-white px-4 py-2 text-neutral-700 transition duration-200 hover:bg-gray-100"
           >
             View all features
           </Link>
-        </div>
+        </div> */}
       </div>
     </section>
   );
