@@ -11,7 +11,7 @@ export default function Hero() {
         fill="blue"
       />
       <div className="relative z-10 w-full p-8 text-center">
-        <h1 className="mt-20 bg-gradient-to-b from-neutral-50 to-neutral-400 bg-clip-text text-4xl font-bold text-transparent md:mt-0 md:text-7xl">
+        <h1 className="mt-20 bg-gradient-to-b from-blue-50 to-blue-400 bg-clip-text text-4xl font-bold text-transparent md:mt-0 md:text-7xl">
           Sync-Student
         </h1>
         <SparklesCore
