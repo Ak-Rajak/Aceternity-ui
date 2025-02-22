@@ -30,7 +30,7 @@ const musicSchoolTestimonials = [
   {
     quote:
       "The combination of Next.js, Firebase, Liveblocks, Three.js, and AWS has proven to be a powerful stack for this project. We've maintained clear communication between the frontend, backend, and infrastructure teams, ensuring a cohesive development process. Testing across these technologies has been thorough, and we're confident in the project's stability and scalability.",
-    name: "Rakesh Kumar",
+    name: "Atul Kumar Rajak",
     title: "Project Manager (Tech Stack Coordination)",
   },
 ];
