@@ -4,13 +4,13 @@ import { Instructors } from "@/components/Instructor";
 import { MaxWidthWrapper } from "@/components/MaxWidthWrapper";
 import { Testimonials } from "@/components/Testimonials";
 import { Webinar } from "@/components/Webinar";
-import { WhyChooseUs } from "@/components/WhyChooseUs";
+// import { WhyChooseUs } from "@/components/WhyChooseUs";
 import ThreeSceneHS from "@/components/ThreeSceneHS";
 
 export default function page() {
     return (
 
-        <main className="bg-black/[0.96] bg-grid-white/[0.02] relative min-h-screen">
+        <main className="relative min-h-screen bg-black/[0.96] bg-grid-white/[0.02]">
             <div className="fixed inset-0 -z-0">
                 <ThreeSceneHS/>
             </div>
