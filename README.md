@@ -16,8 +16,6 @@ Experience the platform live: [Sync-Student Demo](https://aceternity-ui-design.v
 - **Interactive 3D Environment** - Immersive space-themed background using Three.js
 - **Responsive Design** - Seamless experience across all device sizes
 
-![3D Background Preview](/public/3d/saturn.jpeg)
-
 ## 🚀 Tech Stack
 
 - **Framework**: [Next.js 14](https://nextjs.org/)
