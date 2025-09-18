@@ -158,4 +158,4 @@ This project is licensed under the MIT License.
 
 ---
 
-Developed with ❤️ by D-SPARK Technologies
+Developed with ❤️ by D-SPARK
