@@ -33,13 +33,8 @@ Experience the platform live: [Sync-Student Demo](https://aceternity-ui-design.v
 ## 📷 Screenshots
 
 <div align="center">
-  <img src="/public/screenshots/dashboard.jpg" alt="Dashboard" width="45%" />
-  <img src="/public/screenshots/whiteboard.jpg" alt="Collaborative Whiteboard" width="45%" />
-</div>
+  <img src="/public/dashboard.png" alt="Dashboard" width="45%" />
 
-<div align="center">
-  <img src="/public/screenshots/video-meeting.jpg" alt="Video Meeting" width="45%" />
-  <img src="/public/screenshots/assignments.jpg" alt="Assignments" width="45%" />
 </div>
 
 ## 🛠️ Getting Started
